@@ -13,7 +13,7 @@ RUN wget https://courses.edx.org/asset-v1:StanfordOnline+SOE.YCSCS1+1T2020+type@
 
 RUN tar -xf "/usr/class/asset-v1:StanfordOnline+SOE.YCSCS1+1T2020+type@asset+block@student-dist.tar.gz" -C /usr/class
 
-RUN ln -s /usr/class/cool ~/cool
+RUN ln -s /usr/class/ ~/cool
 
-ENV PATH=/usr/class/cool/bin:$PATH
+ENV PATH=/usr/class/bin:$PATH
 
